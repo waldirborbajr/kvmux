@@ -7,6 +7,9 @@ import (
 )
 
 var symbol = []string{
+
+
+
 	"✔",
 	"⎇ ",
 	"✖ ",
@@ -16,10 +19,8 @@ var symbol = []string{
 	"↓·",
 }
 
-func init() {
-}
-
 func main() {
+	a = 3
 	heartBeat()
 }
 
