@@ -6,10 +6,9 @@ import (
 	"os"
 )
 
+var version = "0.0.0-dev"
+
 var symbol = []string{
-
-
-
 	"✔",
 	"⎇ ",
 	"✖ ",
@@ -20,7 +19,7 @@ var symbol = []string{
 }
 
 func main() {
-	a = 3
+	fmt.Println(version)
 	heartBeat()
 }
 
