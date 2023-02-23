@@ -19,8 +19,11 @@ var symbol = []string{
 }
 
 func main() {
-	fmt.Println(version)
 	heartBeat()
+}
+
+func show_version() {
+	fmt.Println(version)
 }
 
 func heartBeat() {
